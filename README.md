@@ -1,13 +1,41 @@
 # burger_eat
+[Click here to try it](https://.herokuapp.com/)
 
-### Overview
+![GitHub repo size](https://img.shields.io/github/repo-size/Kathleen-Y/Burger_eat?logo=github)
 
-In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). 
-- Used is MVC design pattern
--- use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
+Burger_eat. AS a USER I can input the burger I want to eat. 
+Then burger will be placed ready to eat. AS a USER has eaten the burger,
+THEN a USER can click a devour button and save the burger as eaten.
+THEN a USERs done with the burger,
+PROMPTED to click devour and the burger will be marked as so.
 
-* **This assignment must be deployed.** Be sure to utilize the [MYSQL Heroku Deployment Guide](../../03-Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
+# Technologies Used
 
+1. MySQL
+2. Node.js
+2. Express
+3. Handlebars
+
+# Table of Contents
+
+* [Installation](#installation)
+* [Instructions](#instructions)
+* [Features](#features)
+* [Example Gif](#example-gif)
+* [Author](#author)
+
+## Installation
+> 1.npm init // 2.npm install mysql express express-handlebars
+
+## Instructions
+> Open your browser and go to [Burger eat](https://.herokuapp.com/). Choose the burger you want to eat and input the name on the input box. 
+
+## Features
+* CRUD method
+
+## Example Gif
+
+![](public/assets/img/burger_me.gif)
 
 ```
 |  /    \   /
@@ -15,20 +43,3 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 |  \      |
 |   \.    |.
 ```
-
-### Minimum Requirements
-
-  - Heroku link  
-  - README.md 
-  - portfolio
-  - link to the Github Repository 
- 
-- - -
-
-### Hosting on Heroku
-
-Now that we have a backend to our applications, we use Heroku for hosting. Please note that while **Heroku is free**
-
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-- - -
