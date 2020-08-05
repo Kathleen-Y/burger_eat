@@ -14,7 +14,7 @@ PROMPTED to click devour and the burger will be marked as so.
 1. MySQL
 2. Node.js
 2. Express
-3. Handlebars
+3. Express-Handlebars
 
 # Table of Contents
 
