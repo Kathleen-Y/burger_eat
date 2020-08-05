@@ -3,7 +3,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kathleen-Y/Burger_eat?logo=github)
 
-Burger_eat. AS a USER I can input the burger I want to eat. 
+[Burger_eat] AS a USER I can input the burger I want to eat. 
 Then burger will be placed ready to eat. AS a USER has eaten the burger,
 THEN a USER can click a devour button and save the burger as eaten.
 THEN a USERs done with the burger,
@@ -37,6 +37,7 @@ PROMPTED to click devour and the burger will be marked as so.
 
 ![](public/assets/img/burger_me.gif)
 
+## Author
 ```
 |  /    \   /
 | /      \ /
