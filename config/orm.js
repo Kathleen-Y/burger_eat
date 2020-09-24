@@ -6,7 +6,6 @@ const printQuestionMarks = (num) => {
   for (let i = 0; i < num; i++) {
     arr.push("?");
   }
-
   return arr.toString();
 };
 
@@ -23,11 +22,9 @@ const objToSql = (ob) => {
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
       }
-      
       arr.push(key + "=" + value);
     }
   }
-
   // translate array of strings to a single comma-separated string
   return arr.toString();
 };
@@ -77,12 +74,9 @@ const orm = {
       if (err) {
         throw err;
       }
-
       cb(result);
     });
-  },
-  
+  },  
 };
 
-// Export the orm object for the model (burgers.js).
 module.exports = orm;

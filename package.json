@@ -10,15 +10,11 @@
   "author": "kyoannon",
   "license": "ISC",
   "homepage": "https://github.com/Kathleen-Y/burger_eat#readme",
-  "bugs": {
     "url": "https://github.com/Kathleen-Y/burger_eat",
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^4.0.4",
     "mysql": "^2.18.1"
-  },
+  }
+}
 
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Kathleen-Y/burger_eat"
-    },

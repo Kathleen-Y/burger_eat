@@ -13,7 +13,6 @@ $(function() {
     }).then(
       function() {
         console.log("changed devoured to", newdevoured);
-        // Reload the page to get the updated list
         location.reload();
       }
     );
@@ -21,11 +20,10 @@ $(function() {
 
   $(".create-devoured").on("submit", function(event) {
     console.log("yum");
-     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
     const newBurger = {
-      burger_name: $("#ca").val().trim(),
+      burger_type: $("#be").val().trim(),
       devoured:0 
     };
     console.log(newBurger);
@@ -37,7 +35,6 @@ $(function() {
     }).then(
       function() {
         console.log("created new burger");
-        // Reload the page to get the updated list
         location.reload();
       }
     );
