@@ -1,20 +1,25 @@
 {
-  "name": "burger",
+  "name": "burger_eat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creates and devours burgers based on user input",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "kyoannon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathleen-y/burger_eat.git"
+  },
+  "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Kathleen-Y/burger_eat#readme",
-    "url": "https://github.com/Kathleen-Y/burger_eat",
+  "bugs": {
+    "url": "https://github.com/kathleen-y/burger_eat/issues"
+  },
+  "homepage": "https://github.com/kathleen-y/burger_eat",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "mysql": "^2.18.1"
   }
 }
-

@@ -1,12 +1,8 @@
-/* insert queries to populate the `burgers` table with at least three entrees. */
-USE burgers_db;
+INSERT INTO burger_db (burger_style) 
+VALUES ('Cheese');
 
-/* Insert 3 Rows of entrees */
-INSERT INTO burgers (burger_type, devoured)
-VALUES ("fries", TRUE);
+INSERT INTO burger_db (burger_style) 
+VALUES ('Thousand Island');
 
-INSERT INTO burgers (burger_type, devoured)
-VALUES ("soup", TRUE);
-
-INSERT INTO burgers (burger_type, devoured)
-VALUES ("coleslaw", TRUE);
+INSERT INTO burger_db (burger_style) 
+VALUES ('Egg');

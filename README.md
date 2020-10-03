@@ -1,5 +1,5 @@
 # burger_eat
-[Click here to try it](https://burger-eat-42.herokuapp.com/)
+[Click here](https://burger-eat-42.herokuapp.com/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Kathleen-Y/Burger_eat?logo=github)
 
 [Burger_eat] 
@@ -15,20 +15,11 @@ PROMPTED to click devour and the burger will be marked as so.
 2. Express
 3. Express-Handlebars
 
-# Table of Contents
-* [Installation](#installation)
-* [Instructions](#instructions)
-* [Features](#features)
-* [Contact](#contact)
-
 ## Installation
 > 1.npm init // 2.npm install mysql express express-handlebars
 
 ## Instructions
 > Open your browser and go to [Burger eat](https://burger-eat-42.herokuapp.com/). Choose the burger you want to eat and input the name on the input box. 
-
-## Features
-* CRUD method
 
 ## Contact
 * GitHub: [@profile](https://github.com/Kathleen-Y)

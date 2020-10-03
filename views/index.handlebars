@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>YOUR ORDER(S)</h3>
+            {{#each burgerData}}
+            {{#unless devoured}}
+            <h5 id='{{id}}'>{{burger_style}}
+                <button type="submit" class="devoured">Devoured!</button></h5>
+            {{/unless}}
+            {{/each}}
+        </div>
+        <div class="col-sm-4">
+            <h1>EAT-DA-BURGER!</h1>
+            <form class="create-form">
+                <div class="form-group">
+                    <label form="burger-form"></label>
+                    <input type="text" id="form" name="name">
+                </div>
+                <button type="submit" class="submitBtn">Submit</button>
+            </form>
+            <p>Create and submit.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>DEVOURED BURGER AREA</h3>
+            {{#each burgerData}}
+            {{#if devoured}}
+            <h5>{{burger_style}}</h5>
+            {{/if}}
+            {{/each}}
+        </div>
+    </div>
+</div>
